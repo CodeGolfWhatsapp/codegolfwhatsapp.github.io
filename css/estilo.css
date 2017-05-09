@@ -1,0 +1,37 @@
+*:focus {
+    outline:none
+}
+ul {
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+.menu-sanfona {
+    border:1px solid #ccc;
+    border-bottom:none;
+    background:#eee;
+}
+.menu-sanfona span {
+    padding:10px;
+    display:block;
+}
+.menu-sanfona > li {
+    border-bottom:1px solid #ccc;
+}
+.menu-sanfona li ul {
+    background:#fff;
+    border-top:1px solid #ccc;
+    display:none;
+}
+
+/* a mágica acontece aqui */
+.menu-sanfona li:focus ul {
+    display:block;
+}
+munu sanfona li.collapse:not(:focus) {
+    /* style here */
+}
+
+li.collapse:focus{ 
+    outline: none;
+}
