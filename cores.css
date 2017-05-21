@@ -1,0 +1,151 @@
+@-ms-viewport{
+  width: device-width;
+}
+
+.navigation10{
+	margin:right;
+}
+
+a{
+	font-family: serif;
+}
+.navigation1 {
+	background-color: rgb(45,192,0,255);
+	padding: 10px 15px 13px 15px;
+	letter-spacing: 4px;
+	word-spacing: 4px;
+	font-weight: bold;
+	font-size: 95%;
+	text-align: center;	
+}
+
+a:link, a:visited {
+    background-color: white;
+    /*display:block;*/
+    color: black;
+    border: 2px solid green;
+    padding: 10px 10px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    position: relative;
+}
+
+a:hover, a:active {
+	background-color: green;
+	color: white;
+	position: relative;
+	font-weight: bold;
+}
+div#centro {
+  vertical-align: center;
+ }
+.navigation2 {
+	
+	background-color: #39bb14;
+	padding: 200px 15px 13px 15px;
+	text-align: center;
+    	position: relative;
+}
+.navigation3 {
+	
+	background-color: #00c0af;
+	padding: 50px 30px 30px 30px;
+    	position: relative;
+	letter-spacing: 2px;
+	word-spacing: 4px;
+	font-weight: bold;
+	font-size: 95%;
+	text-align: center;
+}
+.navigation4 {
+	
+	background-color: #00c9f0;
+	padding: 50px 30px 30px 30px;
+	letter-spacing: 2px;
+	word-spacing: 4px;
+	font-weight: bold;
+	font-size: 95%;
+	text-align: center;
+}
+.navigation5 {
+	
+	background-color: #f0c003;
+	padding: 50px 30px 30px 30px;
+	letter-spacing: 2px;
+	word-spacing: 4px;
+	font-weight: bold;
+	font-size: 95%;
+	text-align: center;
+}
+.navigation6 {
+	
+	background-color: #0fccaa;
+	padding: 50px 30px 30px 30px;
+	letter-spacing: 2px;
+	word-spacing: 4px;
+	font-weight: bold;
+	font-size: 95%;
+	text-align: center;
+
+}
+.navigation7 {
+	
+	background-color: #ff9933;
+	padding: 400px 15px 13px 15px;
+}
+.navigation8 {
+	
+	background-color: #99FF99;
+	padding: 400px 15px 13px 15px;
+}
+
+h4 {
+	color: white;
+}
+
+
+
+
+section {
+	width: 95%;
+	max-width: 50em;
+	margin: 0 auto;
+}
+
+footer {
+	width: 95%;
+	max-width: 50em;
+	padding: 4em 0;
+	margin: 4em auto;
+	border-top: 1px solid #ccc;
+}
+
+@media only screen and (min-width: 481px) {
+	a {
+	    display:block-inline;
+	}
+}
+
+/*css para tela de celulares*/
+@media only screen and (max-width : 480px) {
+
+	body {
+		font-size: 1.5em;
+	}
+	
+	section,
+	footer {
+		width: 80%;
+	}
+	
+	h1 {
+		font-size: 1.5em;
+		color: #d00a00; 
+	}
+
+	a {
+		display: block;
+	}
+	
+}
