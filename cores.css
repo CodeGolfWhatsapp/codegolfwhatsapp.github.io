@@ -61,6 +61,14 @@ div#centro {
 	font-size: 95%;
 	text-align: center;
 }
+.ia {
+	background-color: #00c0af;
+	padding: 50px 30px 30px 30px;
+    	position: relative;
+	font-size: 95%;
+
+	
+}
 .ie {
 	background-color: red;
 	padding: 0px 30px 30px 30px;
