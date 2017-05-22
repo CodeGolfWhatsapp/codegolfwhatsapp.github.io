@@ -2,19 +2,26 @@
 <html lang="pt-br">
    <head>
        <meta charset="utf-8"/>
-       <title>Pytutor - Code Golf Whatsapp</title>
-       <STYLE type="text/css">
-        A:link {text-decoration:none;color:#0000cc;}
-        A:visited {text-decoration:none;color:#ffcc33;}
-        A:active {text-decoration:none;color:#ff0000;}
-        A:hover {text-decoration:underline;color:#999999;}
-       </STYLE>
+       <title>Pytutor - Tutorial de Python - Code Golf Whatsapp</title>
+       <link href="cores.css" rel="stylesheet" type="text/css"/>
 
 
    </head>
+<div class="navigation2">
+<h1><font color="white">Tutoriais</font></h1>
+<br>
+<br>
+<a href="index.html">Início</a>
+<a href="pytutor.html">Tutorial de Python</a>
+<a href="#">Tutorial de Ruby</a>
+<a href="luatutor.html">Tutorial de Lua</a>
+<a href="#">Tutorial de Java</a>
+</div>
+
 <body topmargin=30 leftmargin=30>
 <h1> Tutorial Básico de Python </h1>
 <h5> Autor: Renan Lira </h5>
+<div class="ia">
 <PRE>
 ''' 
 
@@ -42,7 +49,7 @@ durante a execução do programa.
 
 <B>Strings</B> é um tipo de dados composto 
 conhecidos por serem um grupos de caracteres'''
-
+<blockquote>
 aspas_simples_str = 'aspas simples'
 aspas_duplas_str = "aspas duplas"
 
@@ -67,7 +74,7 @@ varias linhas'''
 
 #Esse também é um comentário
 
-
+</blockquote>
 #<B>Laços de repetição</B>
 '''Laços de Repetição, ou estruturas condicionais, 
 são as formas que o Python proporciona para 
@@ -81,7 +88,7 @@ Laços que existem no Python:
     <B>for</B>: só é usado quando sabemos quantas vezes 
        o bloco de código deve ser repetido.
 '''
-
+<blockquote>
 s = "hello world"
 a = [4,6,9]
 
@@ -98,20 +105,20 @@ for odd_number in odds:
 print(range(len(odds)))
 for index in range(len(odds)):
   print("Index: {:d}, odd number: {:d}".format(index, odds[index]))
-
+</blockquote>
 #<B>While</B>
 
 #Um laço simples com while.
-
+<blockquote>
 count = 0
 while count <= 5:
     print(count)
     count += 1
 
 # 0 1 2 3 4 5
-
+</blockquote>
 #Exemplo com break.
-
+<blockquote>
 count = 0
 while count <= 5:
     print(count)
@@ -119,7 +126,7 @@ while count <= 5:
     if count > 3: break
 
 # 0 1 2 3
-
+</blockquote>
 #<B>Estruturas condicionais</B>
 #A principal estrutura condicional do Python 
 #(e mais usada também) é a construção if/else 
@@ -131,21 +138,22 @@ while count <= 5:
 #Pra algo mais aprofundado sobre o 
 #PEP 8 - Guia de estilo para Python - 
 #acesse: https://wiki.python.org.br/GuiaDeEstilo
-
+<blockquote>
 age = 35
 if age == 35:
   print("Idade é igual a 35!")
 name = "Megan"
 if name == "Megan":
-  print("Yes my name is Megan!")
+  print("Sim, meu nome é Megan!")
   if age == 35:
     print("Meu nome é Megan e Eu tenho 35 anos de idade")
-
+</blockquote>
 '''Caso o if é falso, ele ignora e analisa a condição do elif, 
 se o elif for falso, segue para o próximo else se houver. No else, 
 caso as condições anteriores a ela forem falsa, 
 ela será verdadeira e o código dentro dela é executado. 
 '''
+<blockquote>
 num1 = 10
 num2 = 20
 soma = num1 + num2
@@ -155,16 +163,18 @@ elif soma = 0:
   print "Igual a Zero."
 else:
   print "Menor que Zero."
-
+</blockquote>
 #<B>Técnicas para CodeGolf com Python</B>
 #<B>1</B>
+<blockquote>
 if a:                 # ruim
   bob()
   jim()
 
 if a:bob();jim()     # melhor
-
+</blockquote>
 #<B>2</B>
+<blockquote>
 if a<0:                        # ruim
   b=2*a
 else:
@@ -174,8 +184,9 @@ b=2*a if a<0 else 3*a          # mais ou menos
 
 b=a<0 and 2*a or 3*a           # bom
 b=a*(3,2)[a<0]                 # melhor
-
+</blockquote>
 #<B>3 - Calculando a média</B>
+<blockquote>
 #Ruim
 numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 sum = 0
@@ -187,8 +198,9 @@ print("The average is", avg)
 #Melhor
 n=[1,2,3,4,5,6,7,8,9]
 print(sum(n)/len(n))
-
+</blockquote>
 #</B>4 - Calculando a raiz quadrada sem imports</B>
+</blockquote>
 #Ruim
 def sqrt(a):
     x=a
@@ -212,13 +224,18 @@ print"%.2f"%i
 x=a=input()
 while x*x>a:x-=1e-3
 print"%.2f"%x
+</blockquote>
 </PRE>
+</div>
+<div class="uou">
 <table>
 	 <tr>
 			<td><img alt="CodeGolfWhatsapp" width="34" src="img/pp.jpeg"/></td>
-			<td><h1><font face="Tahoma" color="black"><b>Code Golf</b> </font></h1></td>
+			<td><h1><font face="Tahoma" color="white"><b>Code Golf</b> </font></h1></td>
 
 	 </tr>
 </table>
+<p><a href="https://github.com/CodeGolfWhatsapp/Respostas">Repositório do CodeGolf</a></p><br>
+</div>
 </body>
 </html>
