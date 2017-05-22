@@ -5,7 +5,9 @@
 .navigation10{
 	margin:right;
 }
-
+.img {
+      position: relative;
+}
 a{
 	font-family: serif;
 }
@@ -32,18 +34,19 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
-	background-color: green;
+	background-color: blue;
 	color: white;
 	position: relative;
 	font-weight: bold;
 }
+
 div#centro {
   vertical-align: center;
  }
 .navigation2 {
 	
-	background-color: #39bb14;
-	padding: 200px 15px 13px 15px;
+	background-color: black;
+	padding: 15px 15px 13px 15px;
 	text-align: center;
     	position: relative;
 }
@@ -57,6 +60,26 @@ div#centro {
 	font-weight: bold;
 	font-size: 95%;
 	text-align: center;
+}
+.ie {
+	background-color: red;
+	padding: 0px 30px 30px 30px;
+	position: relative;	
+}
+.uai {
+	background-color: black;
+	padding: 0px 30px 30px 30px;
+	position: relative;	
+}
+.uou {
+	background-color: #0d0d0d;
+	padding: 0px 30px 30px 30px;
+	position: relative;	
+}
+.py {
+	background-color: orange;
+	padding: 0px 30px 30px 30px;
+	position: relative;	
 }
 .navigation4 {
 	
@@ -138,7 +161,9 @@ footer {
 	footer {
 		width: 80%;
 	}
-	
+	img {
+		position: relative;
+	}
 	h1 {
 		font-size: 1.5em;
 		color: #d00a00; 
