@@ -174,11 +174,11 @@ footer {
 	}
 	h1 {
 		font-size: 1.5em;
-		color: #d00a00; 
+		color: blue; 
 	}
 
 	a {
-		display: block;
+		display: block-inline;
 	}
 	
 }
