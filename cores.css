@@ -155,6 +155,7 @@ footer {
 @media only screen and (min-width: 481px) {
 	a {
 	    display:block-inline;
+	    white-space: nowrap;
 	}
 }
 
@@ -178,7 +179,8 @@ footer {
 	}
 
 	a {
-		display: block-inline;
+		display: block;
+		white-space: nowrap;
 	}
 	
 }
