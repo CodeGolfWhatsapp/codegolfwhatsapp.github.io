@@ -26,7 +26,7 @@ a:link, a:visited {
     /*display:block;*/
     color: black;
     border: 2px solid green;
-    padding: 0px 10px;
+    padding: 8px 10px;
     text-align: center;
     font-weight: bold;
     text-decoration: none;
@@ -151,14 +151,6 @@ footer {
 	margin: 4em auto;
 	border-top: 1px solid #ccc;
 }
-
-@media only screen and (min-width: 481px) {
-	a {
-	    display:block-inline;
-	    white-space: nowrap;
-	}
-}
-
 /*css para tela de celulares*/
 @media only screen and (max-width : 480px) {
 
@@ -175,12 +167,25 @@ footer {
 	}
 	h1 {
 		font-size: 1.5em;
-		color: blue; 
+		color: #d00a00; 
 	}
 
 	a {
 		display: block;
+		font-size: 65%;
 		white-space: nowrap;
 	}
 	
+}
+@media only screen and (max-width: 1088px) {
+	a {
+	    display:block;
+	    white-space: nowrap;
+	}
+}
+@media only screen and (min-width: 1088px) {
+	a {
+	    display:block-inline;
+	    white-space: nowrap;
+	}
 }
