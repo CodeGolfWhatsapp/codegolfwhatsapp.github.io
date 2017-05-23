@@ -7,6 +7,9 @@
 }
 .img {
       position: relative;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
 }
 a{
 	font-family: serif;
@@ -163,12 +166,6 @@ footer {
 	footer {
 		width: 80%;
 	}
-	img {
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-
-	}	
 	
 	h1 {
 		font-size: 1.5em;
@@ -186,23 +183,12 @@ footer {
 	a {
 	    display:block;
 	    white-space: nowrap;
-	}
-	img {
-		display: block;
-		margin-left: auto;
-    		margin-right: auto;
 	}	
-
 }
 @media only screen and (min-width: 1088px) {
 	a {
 	    display:block-inline;
 	    white-space: nowrap;
-	}
-		img {
-		display: block;
-		margin-left: auto;
-    		margin-right: auto;
 	}	
 
 }
